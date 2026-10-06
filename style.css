@@ -1,0 +1,411 @@
+body{
+    background-color: lab(81.05% 5.59 12.11);
+    margin:0px ;
+    padding:0px ;
+}
+
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+
+   
+}
+.first .logo{
+    height:100px ;
+    width:210px;
+}
+.first{
+    display: flex;
+    align-items: center;
+    margin:0px ;
+    padding:0px ;
+    margin-top:0px ;
+    margin-bottom:0px ;
+    flex-wrap: wrap;
+}
+nav li{
+    display: inline;
+    font-size: 25px;
+    font-weight:bold ;
+}
+ nav a{
+    text-decoration: none;
+    color:hwb(25 1% 46%) ;
+ padding:10px; 
+ 
+}
+.nav-icon{
+    display: flex;
+    align-items: center;
+    gap:30px ;
+    flex-wrap: wrap;
+}
+span{
+    background-color: red;
+    color:white ;
+    border-radius:100px;
+    padding: 2px;
+}
+.cart{
+    position:relative;
+}
+.cart span{
+    position: absolute;
+    right:0px ;
+ font-size:10px ;
+ padding:2px 4px;
+border-radius:100px ;
+}
+ /* 1 section complete */
+.ribbon{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:10px ;
+    background-color: oklch(70.374% 0.03933 41.066);
+    flex-wrap: wrap;
+    margin-top: 40px;
+}
+ .ribbon .box{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+   flex-wrap: wrap;
+}
+.ribbon .box,h4,p{
+     padding: 0px;
+    margin:0px ;
+    margin-top:2px ;
+
+}
+.main-first{
+    flex-direction: column;
+    position: relative;
+    top:60px ;
+}
+h1{
+    padding:0px ;
+    margin:0px ;
+    margin-top:0px ;
+    text-shadow:5px 5px 5px hsl(80, 86%, 72%) ;
+}
+.main{ 
+    display: flex;
+    justify-content: center;
+    gap:300px ;
+    background-color: #b39177;
+    flex-wrap: wrap;
+}
+
+ .main-second .fifty{
+top:-420px ;
+position: absolute;
+border:2px solid white ;
+border-radius:100px ;
+background-color: hsl(26, 42%, 25%);
+box-shadow:0px 5px 20px #1d0e0e ;
+
+}
+.main-second .fifty{
+position: relative;
+}
+.women:hover{
+    height:550px;
+    width:400px ;
+    filter: drop-shadow(0px 0px  20px hsl(71, 83%, 68%));
+    
+}
+.main h3{
+    color: hwb(25 2% 45%);
+    font-size: 20px;
+}
+h1{
+    font-size:70px; 
+}
+.two{
+    color: lab(33.98% 30.46 44.21);
+     font-size:70px; 
+     margin-bottom:20px ;
+}
+.drop{
+    color: black;
+    font-size:20px ;
+}
+button{
+    background-color: black;
+    color: white;
+    padding:7px ;
+    font-size:17px ;
+}
+  /* section clothes */
+  .products{
+    display: flex;
+    flex-wrap: wrap;
+    /* justify-content: space-around; */
+    align-items: center;
+    text-align: center;
+    justify-content: center;
+
+  }
+  .clothe{
+    display: flex;
+    border-radius:80px 80px 0px 0px ;
+    background-color: #c9aaaa  ;
+    flex-wrap: wrap;
+    height:260px;
+    width:230px;
+    margin:30px ;
+    align-items: center;
+
+    box-shadow:2px 5px 10px #944e1c ;
+    background: linear-gradient(to bottom,oklab(90.487% 0.01365 0.00418), hwb(0 56% 27%));
+ }
+  
+  /* .clothe :hover{
+    height:265px ;
+    width:235px ;
+    box-shadow: 0px 5px 10px rgb(68, 48, 48);
+    
+     background-color: #c9aaaa  ;
+  } */
+  .clothe h5{
+    margin:0px ;
+    padding:0px ;
+    font-size: 18px ;
+
+  }
+  .last{
+    display: flex;
+     align-items: center;
+    text-align: center;
+    justify-content: center;
+flex-wrap: wrap;
+  }
+  .images{
+     border-radius: 0px 60px 0px 60px ;
+    background-color: hsl(180, 21%, 70%)  ;
+    height:260px;
+    width:230px;
+    margin:30px ;
+    box-shadow:2px 5px 10px hwb(180 11% 74%) ;
+    filter: drop-shadow(0px 0px 10px #351e1e);
+    
+  }
+  .images h6{
+margin:0px ;
+    padding:0px ;
+    font-size: 18px ;
+  }
+ .images :hover{
+    transform: scale(1.1);
+    transition: all 0.3s ease-in-out;
+     
+ }
+ .two-box{
+    display: flex;
+    align-items: center;
+    gap:0px;
+    flex-wrap: wrap;
+    justify-content: space-around;
+     border-radius: 30px solid  hwb(24 75% 2%) ;
+    filter: drop-shadow(0px 0px 20px #944e1c);
+
+ }  
+.two-box h5{
+    font-size:20px ;
+    color: #944e1c;
+  padding-bottom:0px ;
+  padding-top:0px ;
+ }
+ .two-box h3{
+    color: black;
+    font-size:40px ;
+    font-weight: bold;
+    margin-top:0px ;
+    margin-bottom:0px ;
+ }
+ .sale{
+    display: flex;
+    align-items: center;
+    background-color: lch(88.15% 20.5 62.98);
+    padding:10px ;
+    border-radius:30px ;
+    flex-wrap: wrap;
+
+ }
+ 
+ .two-box button{
+margin-top:7px ;
+margin-left:30px ;
+ }
+.star{
+    color:hwb(44 1% 21%)
+}
+.shirt{
+    padding-left:20px ;
+    padding-right:20px ;
+}
+.jewellery{
+display: flex;
+align-items: center;
+gap:70px ;
+padding:20px ;
+flex-wrap:wrap ;
+}
+.jewellery img{
+    border: 2px solid lab(81.46% 1.9 3.47);
+    background-color: oklab(93.585% 0.01779 0.02079);
+    padding:20px ;
+}
+.last-one{
+    padding-left: 100px;
+    padding-right:10px ;
+    /* background-color:lch(73.62% 16.95 61.77) ;
+    background:linear-gradient(to top,hwb(0 79% 3%), #473131); */
+    
+}
+
+.six{
+    padding:20px ;
+}
+.six input[type=search]{
+    height:38px ;
+    width:300px;
+    font-size:17px ;
+}
+.last-two h6 ,p{
+font-size: 18px ;
+font-family: 'Times New Roman', Times, serif;
+}
+.five{
+    background-color:lch(88.75% 14.11 20.4) ;
+    display: flex;
+    flex-wrap: wrap;
+    
+}
+.last-two{
+    padding:60px ;
+    justify-content: center;
+    align-items: center;
+    
+
+}
+.five button{
+    padding-left:20px  ;
+    padding-right:20px ;
+}
+
+.last-one :hover{
+  height: 350px ;
+  width:350px ;
+  filter: drop-shadow(0px 0px 10px #10d1eb);
+}
+
+.last-one{
+    
+    justify-content: left ;
+
+}
+.last-one h2,h6{
+    color: #944e1c;
+    font-weight: bold;
+    margin-top:0px ;
+    padding:0px ;
+    padding-left:70px ;
+} 
+@media only screen and (max-width:600px){
+nav li{
+    display:inline-block;
+    padding:5px ;
+    font-size:25px  ;
+    
+    
+}
+.first .logo{
+    height:70px ;
+    width:140px ;
+}
+.nav-icon{
+    gap:0px ;
+    justify-content: center;
+}
+.main{
+    gap:70px;
+}
+.women{
+    max-width:260px ;
+}
+.main-first h1{
+    font-size:60px ;
+}
+.main-first h3{
+    font-size:20px ;
+}
+.main-second{
+position: relative;
+
+}
+.main-second .fifty{
+top:15px ;
+position: absolute;
+background-color:hwb(25 37% 16%);
+border-radius:90px ;
+}
+.ribbon{
+    align-items: center;
+    padding:5px ;
+    margin-top:15px ; 
+}
+.sale h5{
+    font-size:14px ;
+}
+.sale h3{
+    font-size:35px ;
+}
+.two-box{
+    align-items: center;
+    gap:35px ;
+}
+.sale img{
+    height:140px ;
+    width:160px ;
+}
+button{
+    padding:5px ;
+    font-size:15px ;
+}
+h1{
+    font-size:50px ;
+}
+.jewellery{
+    gap: 50px;
+    padding:9px ;
+    align-items: center;
+}
+.last-one img{
+    height:255px ;
+    width:310px ;
+    align-items: center;
+    padding-left:30px ;
+    padding-right:30px ;
+    
+}
+.last-one{
+    padding:10px;
+    align-items: center;
+}
+.five{
+    padding:23px ;
+    gap:px ;
+    padding-bottom:0px ;
+}
+.fifty h1{
+    font-size:40px ;
+}
+.five h6, p{
+    font-size:10 ;
+    padding:0px ;
+    margin-top:0px ;
+}
+}
